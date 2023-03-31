@@ -371,3 +371,142 @@ footer .footer-infos .infos a:hover{
         margin: 0 0 0 10px;
     }
 }
+@media screen and (max-width: 600px){
+    .navbar{
+        display: block;
+        width: 100%;
+        position: static;
+        margin-bottom: -120px;
+        padding: 0 30px;
+    }
+    .navbar ul .items {
+        display: block;
+    }
+    .navbar ul .items a{
+        display: block;
+        margin: 0 0;
+        padding: 5px 0;
+    }
+    .navbar ul li .active{
+        border: none;
+    }
+    .info{
+        width: 100%;
+        margin-left: 0;
+        padding: 0 8px;
+    }
+    .info h3{
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        font-size: 10px;
+    } 
+    .info p{
+        font-size: 8px;
+        margin-left: 2px;
+    }
+    .info form{
+        width: 100%;
+    }
+    .info form input[type="text"]{
+        border: 1px solid #F2F2F2;
+        width: 160px;
+    }
+    .info form input[type="submit"]{
+        width: 70px;
+        font-size: 10px;
+        height: 37px;
+        position: relative;
+        bottom: 2px;
+    }
+    .info .filtres{
+        width: 100%;
+    }
+    .info .filtres .economic, .familial, .romantic, .animal{
+        display: block;
+        width: 270px;
+        margin: 10px 0;
+        position: relative;
+        right: 0;
+    }
+    .info .alert span{
+        font-size: 10px;
+    }
+    .hebergement{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .hebergement .marseille{
+        background-color: #ffffff;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .hebergement .list-card{
+        display: block;
+        width: 100%;
+    }
+    .hebergement .list-card .card{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .hebergement .list-card .card img{
+        width: 100%;
+    }
+    .hebergement .populaire{
+        background-color: #FFFFFF;
+        width: 100%;
+        padding: 30px;
+        height: auto;
+    }
+    .hebergement .populaire .card-pupolaire{
+        margin: 10px 0;
+        width: 100%;
+        /* background-color: #0065FC; */
+        transition: transform 300ms;
+    }
+    .hebergement .populaire .card-pupolaire:hover{
+        transform: scale(1);
+    }
+    .hebergement .populaire .card-pupolaire img{
+        width: 50%;
+    }
+    .hebergement .populaire .card-pupolaire h3{
+        font-size: 12px;
+    }
+    .hebergement .populaire .card-pupolaire p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .hebergement .populaire .card-pupolaire .icons{
+        margin: 30px 0 0 10px;
+    }
+    .activites{
+        margin: 0;
+        padding: 30px;
+        width: 100%;
+    }
+    .activites .activites-cards{
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .activites .activites-cards .cards img{
+        width: 100%;
+    }
+    .activites .activites-cards .cards img:hover{
+        transform: scale(1);
+    }
+    .activites .activites-cards .cards1 .cards12{
+        margin: 20px 0;
+    }
+    .activites .activites-cards .cards1 .cards12 img{
+        width: 100%;
+    }
+    footer .footer-infos{
+        display: block;
+        padding: 0 30px;
+        width: 100%;
+    }
+}
